@@ -1,0 +1,34 @@
+{
+    "Users": [
+        {
+            "Username": "john_doe",
+            "Email": "john.doe@example.com",
+            "PasswordHash": "5f4dcc3b5aa765d61d8327deb882cf99",
+            "CreateDate": "2024-01-01"
+        },
+        {
+            "Username": "jane_doe",
+            "Email": "jane.doe@example.com",
+            "PasswordHash": "5f4dcc3b5aa765d61d8327deb882cf02",
+            "CreateDate": "2024-01-02"
+        }
+    ],
+    "Transactions": [
+        {
+            "UserID": 1,
+            "CategoryID": 1,
+            "Amount": 100.00,
+            "TransactionDate": "2024-01-03",
+            "Description": "Supermarket groceries",
+            "PaymentMethodID": 1
+        },
+        {
+            "UserID": 2,
+            "CategoryID": 2,
+            "Amount": 200.00,
+            "TransactionDate": "2024-01-04",
+            "Description": "Online course subscription",
+            "PaymentMethodID": 2
+        }
+    ]
+}
